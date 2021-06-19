@@ -1,0 +1,300 @@
+/*Header with Navigation Bar */
+/* End of Header With Navigation Bar */
+/* Start of Content Top and Bottom Section */
+/* Paragrapf  and text under Pictures style */
+/* End of Top Section */
+/* Start of Bottom Section */
+/* Start of Footer */
+/*End of Footer */
+/*----- MOBILE SCREEN------ */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: block;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+#logoheader {
+  background-color: #5B1A1A;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#logoleft {
+  width: 40%;
+  padding: 2%;
+}
+
+#imgleft {
+  max-width: 50%;
+  min-width: 40%;
+  padding-left: 5%;
+  text-align: left;
+}
+
+#logoright {
+  width: 60%;
+  text-align: right;
+}
+
+#imgright {
+  max-width: 70%;
+  min-width: 50%;
+  padding: 2%;
+  padding-right: 5%;
+}
+
+#navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 0;
+}
+
+#navigation ul {
+  padding: 1%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+li a {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#date {
+  text-align: right;
+  width: 90;
+  padding: 1rem;
+}
+
+#content {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 95%;
+}
+
+#content p {
+  background-color: black;
+  position: absolute;
+  color: white;
+  margin: 0;
+  bottom: 0;
+  padding-top: 3%;
+  padding-left: 2%;
+  width: 98%;
+}
+
+div {
+  display: block;
+}
+
+.Headline {
+  background-color: #DDDDDD;
+  color: #595959;
+  font-size: 2em;
+  width: 100%;
+  margin: 2% 0;
+  padding: 0.5% 2%;
+  max-height: 2em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#Topsection {
+  margin: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 95%;
+}
+
+#Topsection .sectionimg div {
+  position: relative;
+}
+
+#Topsection .sectionimg div:not(.Headline) {
+  width: 32%;
+}
+
+#Topsection p {
+  min-height: 25%;
+  font-size: 1.5vw;
+  width: 100%;
+}
+
+#Bottomsection {
+  margin: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 95%;
+}
+
+#Bottomsection .sectionimg div {
+  position: relative;
+  width: 40%;
+  padding: 2%;
+}
+
+#Bottomsection p {
+  height: 20%;
+  font-size: 1.2vw;
+  width: 90%;
+}
+
+.sectionimg {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionimg div img {
+  height: 100%;
+}
+
+#banner {
+  margin: 2rem auto;
+  width: 95%;
+}
+
+.footer {
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#logo2 {
+  padding: 2%;
+  width: 20%;
+  float: right;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  text-align: right;
+}
+
+#endtext {
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5vw;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+  }
+  #date {
+    visibility: hidden;
+  }
+  #banner {
+    visibility: hidden;
+  }
+  #logoright {
+    visibility: hidden;
+  }
+  #logoleft {
+    width: 100%;
+    text-align: center;
+  }
+  div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Headline {
+    width: 380px;
+  }
+  .responsive {
+    width: 300%;
+  }
+  #Topsection p {
+    min-height: 25%;
+    font-size: 5vw;
+    width: 380px;
+  }
+  #Bottomsection p {
+    height: 20%;
+    font-size: 4vw;
+    width: 420px;
+  }
+}
+/*# sourceMappingURL=CodeReview2.css.map */

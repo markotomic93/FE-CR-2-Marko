@@ -1,0 +1,124 @@
+/*Header with Navigation Bar */
+/* End of Header With Navigation Bar */
+/* Start of Footer */
+/*End of Footer */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: block;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+#logoheader {
+  background-color: #5B1A1A;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#logoleft {
+  width: 40%;
+  padding: 2%;
+}
+
+#imgleft {
+  max-width: 50%;
+  min-width: 40%;
+  padding-left: 5%;
+  text-align: left;
+}
+
+#logoright {
+  width: 60%;
+  text-align: right;
+}
+
+#imgright {
+  max-width: 70%;
+  min-width: 50%;
+  padding: 2%;
+  padding-right: 5%;
+}
+
+#navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 0;
+}
+
+#navigation ul {
+  padding: 1%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+li a {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  list-style-type: none;
+  text-decoration: none;
+}
+#title {
+  text-align: center;
+  padding: 30px;
+}
+#title h3 q {
+  font-family: cursive;
+}
+h3  {
+  text-align: center;
+  padding: 50px 100px; }
+
+.footer {
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  top: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#logo2 {
+  padding: 2%;
+  width: 25%;
+  float: right;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  text-align: right;
+}
